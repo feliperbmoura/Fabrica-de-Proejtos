@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scr/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+</head>
+    <body>
+        <header>
+        <a href="home.html"><img src="scr/img/LOGO.png" alt="" class="logo-img"></a>
+
+        <button class="menu-toggle" id="menu-toggle">
+            ☰
+        </button>
+
+        <nav id="menu">
+            <div class="area-usuario">
+                <i class="fa fa-solid fa-pencil"></i>
+                <img src="scr/img/9187604.png" alt="" class="user-img">
+                <p>Username</p>
+                <a href="#">Desconectar</a>
+            </div>
+            <ul>
+                <li><a href="#">Veículos Cadastrados</a></li>
+                <li><a href="#">Seus Dados</a></li>
+                <li><a href="#">Benefícios</a></li>
+                <li><a href="#">Histórico</a></li>
+                <li><a href="#">Mapa de Vagas</a></li>
+                <li><a href="#">Ajuda / Suporte</a></li>
+            </ul>
+        </nav>
+        
+        </header>
+        <main>
+           <section class="section-extrato">
+
+            <div class="extrato-top">
+
+                    <div class="extrato-title">
+                        <h1>Extrato</h1>
+                        <p>Histórico de pagamentos e multas</p>
+                    </div>
+
+                    <button class="filtro-btn">
+                        <i class="fa fa-solid fa-sliders"></i>
+                        Filtros
+                    </button>
+
+                </div>
+
+                <div class="cards-resumo">
+
+                    <div class="resumo-card">
+                        <div class="icon-box">
+                            <i class="fa fa-solid fa-wallet"></i>
+                        </div>
+
+                        <span>Total pago</span>
+                        <h2>R$ 248,00</h2>
+                    </div>
+
+                    <div class="resumo-card">
+                        <div class="icon-box">
+                           <i class="fa fa-regular fa-clock"></i>
+                        </div> 
+
+                        <span>Total pendente</span>
+                        <h2>R$ 68,00</h2>
+                    </div>
+
+                    <div class="resumo-card">
+                        <div class="icon-box">
+                            <i class="fa-regular fa-file-lines"></i>
+                        </div>
+
+                        <span>Total de multas</span>
+                        <h2>12</h2>
+                    </div>
+
+                </div>
+
+
+
+                <!-- INICIO HISTORICO DE PAGAMENTO -->
+                <div class="historico-box">
+                    <div class="historico-item">
+
+                        <div class="left">
+                            <div class="icon success">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+
+                            <div class="info">
+                                <h3>Pagamento realizado</h3>
+                                <span>12/01/2026 • 14:32</span>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <strong class="valor pago">- R$ 40,00</strong>
+                            <span class="status pago-status">Pago</span>
+                        </div>
+
+                        <i class="fa-solid fa-chevron-right seta"></i>
+
+                    </div>
+
+                    <div class="historico-item">
+
+                        <div class="left">
+                            <div class="icon pendente">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+
+                            <div class="info">
+                                <h3>Excesso de tempo</h3>
+                                <span>11/01/2026 • 09:12</span>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <strong class="valor pendente-color">R$ 20,00</strong>
+                            <span class="status pendente-status">Pendente</span>
+                        </div>
+
+                        <i class="fa-solid fa-chevron-right seta"></i>
+
+                    </div>
+
+                    <div class="historico-item">
+
+                        <div class="left">
+                            <div class="icon success">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+
+                            <div class="info">
+                                <h3>Pagamento realizado</h3>
+                                <span>08/01/2026 • 16:45</span>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <strong class="valor pago">- R$ 18,00</strong>
+                            <span class="status pago-status">Pago</span>
+                        </div>
+
+                        <i class="fa-solid fa-chevron-right seta"></i>
+
+                    </div>
+
+                    <div class="historico-item">
+
+                        <div class="left">
+                            <div class="icon pendente">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+
+                            <div class="info">
+                                <h3>Excesso de tempo</h3>
+                                <span>07/01/2026 • 11:03</span>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <strong class="valor pendente-color">R$ 12,00</strong>
+                            <span class="status pendente-status">Pendente</span>
+                        </div>
+
+                        <i class="fa-solid fa-chevron-right seta"></i>
+
+                    </div>
+
+                    <div class="historico-item">
+
+                        <div class="left">
+                            <div class="icon success">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+
+                            <div class="info">
+                                <h3>Pagamento realizado</h3>
+                                <span>05/01/2026 • 10:21</span>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <strong class="valor pago">- R$ 30,00</strong>
+                            <span class="status pago-status">Pago</span>
+                        </div>
+
+                        <i class="fa-solid fa-chevron-right seta"></i>
+
+                    </div>
+
+                    <button class="ver-mais">
+                        Ver mais
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+
+                </div>
+                 <!-- FIM HISTORICO DE PAGAMENTO -->
+
+                 <div class="aviso-area-multas">
+                    <div class="icon-circle-shield">
+                        <i class="fa fa-solid fa-shield"></i>
+                    </div>
+                    <div class="container-avisos-multas-titles">
+                        <h4>Regularize e evite transtornos</h4>
+                        <p>Mantenha seus pagamento em dia e evite juros e impedimento.</p>
+                    </div>
+                </div>
+           </section>
+        </main>
+
+        <footer>
+
+            <div class="footer-topo">
+                <i class="fa fa-brands fa-facebook"></i>
+                <i class="fa fa-brands fa-whatsapp"></i>
+                <i class="fa fa-brands fa-twitter"></i>
+                <i class="fa fa-brands fa-linkedin"></i>
+                <i class="fa fa-brands fa-instagram"></i>
+            </div>
+            <div class="footer-main">
+                <a href="#">Inicio</a>  
+                <a href="#">Quem somos</a>
+                <a href="#">Contato</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Blog</a>
+                <a href="#">FAQ - Fale conosco</a>
+                <a href="#">Política de estorno</a>
+            </div>
+            <div class="footer-foot">
+                <p>&COPY; Todos direitos reservados a 4Devs</p>
+            </div>
+        </footer>
+        <script src="scr/scrips/script.js"></script>
+    </body>
+</html>
